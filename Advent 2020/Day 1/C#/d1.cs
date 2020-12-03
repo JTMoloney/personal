@@ -7,7 +7,7 @@ namespace JTM {
         public static void Main() {
 
             // Read the input file as an array of strings, initialise an array of ints of same length
-            string[] inp = System.IO.File.ReadAllLines("input");
+            string[] inp = System.IO.File.ReadAllLines(@"..\input");
             int[] expenses = new int[inp.Length];
 
             // bools for tracking if we've found the answers to each part of the question.
