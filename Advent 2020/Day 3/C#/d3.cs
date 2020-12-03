@@ -31,12 +31,15 @@ namespace JTM {
             for (int i = 0; i < slopes.Length; i++){
 
                 int x = 0, y = 0, changeX = slopes[i][0], changeY = slopes[i][1], maxX = map[0].Length, maxY = inp.Length;
-            
+
+                // Until the bottom of the array is reached.            
                 while (y < maxY){
 
+                    // If the space is a tree, count the bumps.
                     if(map[y][x] == '#')
                         bumps[i] = bumps[i] + 1;
 
+                    // For the x change, loop around to the left of the array again by performing modulo x.
                     x = (x + changeX) % maxX;
                     y = y + changeY;
                 }
