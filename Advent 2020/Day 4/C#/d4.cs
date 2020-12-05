@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace JTM {
 
-    public static class d3 {
+    public static class d4 {
 
         public static void Main() {
 
