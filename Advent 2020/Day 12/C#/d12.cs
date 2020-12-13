@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace JTM {
 
-    public static class d11 {
+    public static class d12 {
 
         // The '%' operator doesn't work as we want it to for negative numbers, so we need to implement our own
         // modulus operator. In this case, if the resultant n % m is negative, add m again to make it positive.
